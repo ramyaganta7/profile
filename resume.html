@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <title>Ramya Ganta Resume</title>
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons.css" rel="stylesheet">
+  <link href="aos.css" rel="stylesheet">
+  <link href="glightbox.min.css" rel="stylesheet">
+  <link href="swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+
+
+  <!-- Main CSS File -->
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+  <!-- Header -->
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    
+    <!-- Profile Image -->
+    <div class="profile-img">
+      <img src="img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <!-- Site Name -->
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">RK</h1>
+    </a>
+
+    <!-- Social Links -->
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="about.html"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="resume.html"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="project.html"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="service-details.html"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="contact.html"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <h1>Ramya Ganta's Resume</h1>
+    <div id="loadingText" class="spinner-border text-primary" role="status" style="text-align: center;">Loading...</div>
+    
+    <div class="iframe-container">
+      <iframe src="https://docs.google.com/gview?url=https://github.com/ramyaganta7/portfolio/blob/main/img/Ramya%20Ganta%20Resume%20(3).pdf?raw=true&embedded=true" width="100%" height="100%" style="border: 1px solid #eee;" onload="document.getElementById('loadingText').style.display='none';"></iframe>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="preloader-content">
+        <img src="img/preloder2.gif" alt="Loading Icon">
+        <p>Loading... </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vendor JS Files -->
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="validate.js"></script>
+  <script src="aos.js"></script>
+  <script src="typed.umd.js"></script>
+  <script src="purecounter_vanilla.js"></script>
+  <script src="noframework.waypoints.js"></script>
+  <script src="glightbox.min.js"></script>
+  <script src="imagesloaded.pkgd.min.js"></script>
+  <script src="isotope.pkgd.min.js"></script>
+  <script src="swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="main.js"></script>
+
+  <!-- Style for the iframe container to be responsive -->
+  <style>
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-top: 150%; /* Aspect ratio, adjust as needed */
+      overflow: hidden;
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    #loadingText {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</body>
+</html>
